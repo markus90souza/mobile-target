@@ -1,4 +1,4 @@
-package com.mobiletarget
+package com.target.app
 
 import android.os.Build
 import android.os.Bundle

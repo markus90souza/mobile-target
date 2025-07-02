@@ -1,7 +1,19 @@
 {
   "expo": {
-    "name": "mobile-target",
-    "slug": "mobile-target",
-    "version": "1.0.0"
+    "name": "Target",
+    "slug": "target-app",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.target.app",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3d44cd"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.target.app",
+      "icon": "./assets/ios-icon.png",
+    }
   }
 }

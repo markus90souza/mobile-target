@@ -3,6 +3,7 @@
     "name": "Target",
     "slug": "target-app",
     "version": "1.0.0",
+    "scheme": "targetapp",
     "android": {
       "package": "com.target.app",
       "edgeToEdgeEnabled": true,
@@ -13,7 +14,11 @@
     },
     "ios": {
       "bundleIdentifier": "com.target.app",
-      "icon": "./assets/ios-icon.png",
-    }
+      "icon": "./assets/ios-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
